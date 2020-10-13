@@ -19,7 +19,6 @@
     margin: 0 auto;
     text-align: center;
     position: relative;
-    border: 1px solid white;
     color: white;
 }
 
@@ -38,6 +37,7 @@ span {
     width: 75%;
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .profile img {
@@ -48,9 +48,100 @@ span {
 .skills {
     width: 75%;
     margin: 0 auto;
+    padding: 2rem 0 2rem 0; /*top right bottom left*/
 }
 
 .skills img {
     width: 150px;
     
+}
+
+.skills-row {
+    width: 75%;
+    margin: 2rem auto 5rem auto;
+
+}
+
+.skills-image1 {
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+}
+
+.skills-image2 {
+    float: right;
+    margin-left: 2rem;
+}
+
+.contact-me {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bottom-container {
+    background-color: var(--background-color);
+    height: 10vh;
+    text-align: center;
+    color: wheat;
+    padding-top: 1rem;
+}
+
+.skills-header {
+    text-align: center;
+}
+
+
+.cloud1 {
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    animation-name: cloud1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloud1 {
+    0% {left: 5%; top: 10%}
+    25% {left: 8%; top: 13%}
+    50% {left: 5%; top: 15%;}
+    75% {left: 2%; top: 11%;}
+    100% {left: 5%; top: 10%;}
+}
+
+.cloud2 {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    animation-name: cloud2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes cloud2 {
+    0% {right: 5%; top: 10%}
+    25% {right: 8%; top: 13%}
+    50% {right: 5%; top: 15%;}
+    75% {right: 2%; top: 11%;}
+    100% {right: 5%; top: 10%;}
+}
+
+
+.cloud3 {
+    position: absolute;
+    top: 7%;
+    left: 20;
+    animation-name: cloud3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes cloud3 {
+    0% {right: 5%; top: 10%}
+    25% {right: 8%; top: 13%}
+    50% {right: 5%; top: 15%;}
+    75% {right: 2%; top: 11%;}
+    100% {right: 5%; top: 10%;}
 }
